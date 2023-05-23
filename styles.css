@@ -72,12 +72,12 @@ body {
   h1{
     text-align: center;
   }
-  div{
+
+  h2{
     margin-top: 15%;
-  }
-  #Galeria img {
-    margin: 17px;
-}
-h2{
     text-align: center;
+}
+  #Galeria img {
+    
+    margin: 17px;
 }
