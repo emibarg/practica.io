@@ -1,0 +1,83 @@
+body {
+    background-color: lightpink;
+  }
+  
+  header {
+    border-bottom: 1px solid black;
+  }
+  header nav a {
+    margin-right: 20px; /* Adjust the spacing as desired */
+  }
+  
+  
+  main section {
+    border: 1px solid black;
+    padding: 10px;
+    overflow: hidden; /* Prevents images from overflowing the section */
+  }
+  
+  main section img {
+    max-width: 100%; /* Ensures the images fit within the section */
+    height: auto;
+    float: left;
+    margin-right: 10px; /* Adds some space between the image and text */
+  }
+  
+  main section:nth-child(2) img {
+    max-height: 300px;
+    max-width: 300px;
+    float: right;
+    margin-left: 10px; /* Adds some space between the image and text */
+  }
+  
+  main section p {
+    font-size: 18px; /* Adjust the font size as desired */
+  }
+  
+  footer {
+    border-top: 1px solid black;
+  }
+  footer nav a {
+    margin-right: 582px; /* Adjust the spacing as desired */
+  }
+ 
+  
+  .contact-section {
+    margin: 20px;
+  }
+  
+  .form-field {
+    margin-bottom: 10px;
+  }
+  
+  label {
+    display: block;
+  }
+  
+  .required {
+    color: red;
+  }
+  
+  input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  h1{
+    text-align: center;
+  }
+  div{
+    margin-top: 15%;
+  }
+  #Galeria img {
+    margin: 17px;
+}
+h2{
+    text-align: center;
+}
